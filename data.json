@@ -1,32 +1,266 @@
 {
-   "time": {
-      "updated": "Sep 15, 2019 15:47:00 UTC",
-      "updatedISO": "2019-09-15T15:47:00+00:00",
-      "updateduk": "Sep 15, 2019 at 16:47 BST"
-   },
-   "disclaimer": "This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org",
-   "chartName": "Bitcoin",
-   "bpi": {
-      "USD": {
-         "code": "USD",
-         "symbol": "$",
-         "rate": "10,310.8383",
-         "description": "United States Dollar",
-         "rate_float": 10310.838
-      },
-      "GBP": {
-         "code": "GBP",
-         "symbol": "£",
-         "rate": "8,244.7010",
-         "description": "British Pound Sterling",
-         "rate_float": 8244.701
-      },
-      "EUR": {
-         "code": "EUR",
-         "symbol": "€",
-         "rate": "9,242.0168",
-         "description": "Euro",
-         "rate_float": 9242.017
-      }
-   }
+"status": "ok",
+"totalResults": 4175,
+-"articles": [
+-{
+-"source": {
+"id": null,
+"name": "Cointelegraph"
+},
+"author": "Cointelegraph By Joshua Mapperson",
+"title": "Survey of millionaires finds 73% own or want to invest in crypto",
+"description": "Crypto-sentiment among high net worth investors is increasingly bullish, with a new survey revealing that 73% of millionaires already own, or want to buy, digital assets",
+"url": "https://cointelegraph.com/news/survey-of-millionaires-finds-73-own-or-want-to-invest-in-crypto",
+"urlToImage": "https://s3.cointelegraph.com/uploads/2020-11/f7206dd1-2d7c-4b60-ae6e-e5beaa8d3666.jpg",
+"publishedAt": "2020-11-19T02:11:53Z",
+"content": "A survey of more than 700 high net worth individuals, or HNWs, has found that almost three-quarters of millionaire respondents either already own or are looking to invest in cryptocurrencies before t… [+2350 chars]"
+},
+-{
+-"source": {
+"id": null,
+"name": "CNA"
+},
+"author": "CNA",
+"title": "Analysis: Another bitcoin bubble? This time it's different, backers hope",
+"description": "With bitcoin surging to the cusp of its 2017 all-time high, backers are hoping fewer frenzied retail investors means less chance of a crash this time around.",
+"url": "https://www.channelnewsasia.com/news/business/analysis--another-bitcoin-bubble--this-time-it-s-different--backers-hope-13590746",
+"urlToImage": "https://cna-sg-res.cloudinary.com/image/upload/q_auto,f_auto/image/13590744/16x9/991/557/3a47c7c81dc0a35381e966d9fcb8096b/he/file-photo--virtual-currency-bitcoin-tokens-are-seen-in-this-illustration-picture-2.jpg",
+"publishedAt": "2020-11-19T01:50:27Z",
+"content": "LONDON: With bitcoin surging to the cusp of its 2017 all-time high, backers are hoping fewer frenzied retail investors means less chance of a crash this time around.\r\nBut with little mainstream usage… [+3993 chars]"
+},
+-{
+-"source": {
+"id": null,
+"name": "Yahoo Entertainment"
+},
+"author": "Tom Wilson and Anna Irrera",
+"title": "Analysis: Another bitcoin bubble? This time it's different, backers hope",
+"description": "With bitcoin surging to the cusp of its 2017 all-time high, backers are hoping fewer frenzied retail investors means less chance of a crash this time around....",
+"url": "https://finance.yahoo.com/news/analysis-another-bitcoin-bubble-time-014752216.html",
+"urlToImage": "https://s.yimg.com/uu/api/res/1.2/k10.NCKYt9ZSNqmjL7S3_w--~B/aD00NjA7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en-US/reuters.com/5208e6828f4e2dd8b25b787a4941d369",
+"publishedAt": "2020-11-19T01:47:52Z",
+"content": "By Tom Wilson and Anna Irrera\r\nLONDON (Reuters) - With bitcoin surging to the cusp of its 2017 all-time high, backers are hoping fewer frenzied retail investors means less chance of a crash this time… [+3931 chars]"
+},
+-{
+-"source": {
+"id": null,
+"name": "Realvision.com"
+},
+"author": "Real Vision",
+"title": "Tesla, Banks, Bonds, and Bitcoin: DB - Nov18, 2020",
+"description": "Real Vision Managing editor Ed Harrison hosts Tommy Thornton, founder of Hedge Fund Telemetry, to discuss the opportunities and risks on the investment horizon. Tommy explores whether the ongoing rotation into value will continue, sharing his views on sectors…",
+"url": "https://www.realvision.com/podcast/realvision/episode/7048a64c-1ae3-11eb-ab1a-af2233f95148",
+"urlToImage": null,
+"publishedAt": "2020-11-19T01:31:00Z",
+"content": "Tesla, Banks, Bonds, and Bitcoin: DB - Nov18, 2020\r\nReal Vision Managing editor Ed Harrison hosts Tommy Thornton, founder of Hedge Fund Telemetry, to discuss the opportunities and risks on the invest… [+638 chars]"
+},
+-{
+-"source": {
+"id": null,
+"name": "newsBTC"
+},
+"author": "Tony Spilotro",
+"title": "Bitcoin Approaches Top Of Accumulation Zone, Parabolic Phase Begins With Breakout",
+"description": "Bitcoin every four years post-halving goes parabolic and rises to a new all-time high. The ebb and flow of these cycles each time attracts new money and participants to the cryptocurrency network and keeps adoption growing. Timing when to sell is the hardest …",
+"url": "https://www.newsbtc.com/analysis/btc/bitcoin-approaches-top-of-accumulation-zone-parabolic-phase-begins-with-breakout/",
+"urlToImage": "https://www.newsbtc.com/wp-content/uploads/2020/11/bitcoin-raining-coins-Depositphotos_11324330_xl-2015-scaled.jpg",
+"publishedAt": "2020-11-19T01:00:18Z",
+"content": "Bitcoin every four years post-halving goes parabolic and rises to a new all-time high. The ebb and flow of these cycles each time attracts new money and participants to the cryptocurrency network and… [+4088 chars]"
+},
+-{
+-"source": {
+"id": null,
+"name": "Bitcoinist"
+},
+"author": "Nick Chong",
+"title": "Analysts Expect Move to $20,000 High as Bitcoin Holds Key Supports",
+"description": "Bitcoin underwent a rapid correction last evening after the coin pressed as high as $18,500 on leading exchanges. Even still, analysts remain optimistic on the leading cryptocurrency. One trader said that since Bitcoin managed to hold key support levels despi…",
+"url": "https://bitcoinist.com/analysts-expect-move-to-20000-high-as-bitcoin-holds-key-supports/",
+"urlToImage": "https://bitcoinist.com/wp-content/uploads/2020/11/polina-kuzovkova-10MUSwtRqDs-unsplash.jpg",
+"publishedAt": "2020-11-19T01:00:00Z",
+"content": "<ul><li>Bitcoin underwent a rapid correction last evening after the coin pressed as high as $18,500 on leading exchanges.</li><li>Even still, analysts remain optimistic on the leading cryptocurrency.… [+2756 chars]"
+},
+-{
+-"source": {
+"id": null,
+"name": "Letstalkbitcoin.com"
+},
+"author": "adam@letstalkbitcoin.com (The LTB Network), The LTB Network",
+"title": "Bitcoin Audible - Poolin's Initiative to Activate Taproot [Aaron Van Wirdum]",
+"description": "'œTaproot will unlock a new range of possibilities for Bitcoin, improving privacy and expanding smart contract possibilities'The code has been merged, the client is on the way, and it's time for the miners and community to bring this to the next step. Led by …",
+"url": "https://letstalkbitcoin.com/blog/post/bitcoin-audible-poolins-initiative-activate-taproot-aaron-van-wirdum?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+TheDailyBitcoinShow+%28Let%27s+Talk+Bitcoin+Network+Feed%29",
+"urlToImage": "https://letstalkbitcoin.com/files/blogs/9061-fa5d14cf615b8881dca6f597728f775c43a444a62c557f87a31a719fe772c7b1.jpg",
+"publishedAt": "2020-11-19T00:35:00Z",
+"content": "Click to download audio version\r\nTaproot will unlock a new range of possibilities for Bitcoin, improving privacy and expanding smart contract possibilities\r\nThe code has been merged, the client is on… [+1408 chars]"
+},
+-{
+-"source": {
+"id": null,
+"name": "Seeking Alpha"
+},
+"author": "Florian Grummes",
+"title": "Crypto Chartbook: Bitcoin, The Sky Is The Limit",
+"description": "Bitcoin decoupled from all other markets. Our monthly chart above shows three potential scenarios for Bitcoin.",
+"url": "https://seekingalpha.com/article/4390165-crypto-chartbook-bitcoin-sky-is-limit",
+"urlToImage": "https://static3.seekingalpha.com/uploads/2020/11/17/38119276-16056485069029982.png",
+"publishedAt": "2020-11-19T00:34:47Z",
+"content": "Bitcoin has decoupled from markets. It is running on its own now. Legendary investor Stanley Druckenmiller said:\r\nIm a bit of a dinosaur, but I have warmed up to the fact that Bitcoin (BTC-USD) could… [+5145 chars]"
+},
+-{
+-"source": {
+"id": null,
+"name": "FXStreet"
+},
+"author": "FXStreet Team",
+"title": "Bitcoin fundamentals are at all-time highs while prices are heading to $20,000",
+"description": "Bitcoin is yet to fully price in the strong fundamentals as it gains more institutional attention. BTC price currently trades around $18,000, targeti",
+"url": "https://www.fxstreet.com/cryptocurrencies/news/bitcoin-fundamentals-are-at-all-time-highs-while-prices-are-heading-to-20-000-202011190006",
+"urlToImage": "https://editorial.fxstreet.com/images/Markets/Currencies/Digital Currencies/Bitcoin/bit-coin-symbol-flag-3d-illustration-59931110_Large.jpg",
+"publishedAt": "2020-11-19T00:06:23Z",
+"content": "<ul><li>Bitcoin is yet to fully price in the strong fundamentals as it gains more institutional attention.</li><li>BTC price currently trades around $18,000, targeting new all-time highs.</li></ul>As… [+3374 chars]"
+},
+-{
+-"source": {
+"id": null,
+"name": "newsBTC"
+},
+"author": "Nick Chong",
+"title": "Analyst Who Called March’s V-Shaped Reversal Says Bitcoin Dip Is Inevitable",
+"description": "Bitcoin has undergone a strong rally over the past few days as the coin has continued to see vast buying interest. The coin pushed as high as $18,500 last evening, though quickly dipped back into the $17,000 region as selling pressure suddenly appeared. There…",
+"url": "https://www.newsbtc.com/analysis/btc/analyst-who-called-marchs-v-shaped-reversal-says-bitcoin-dip-is-inevitable/",
+"urlToImage": "https://www.newsbtc.com/wp-content/uploads/2020/08/Depositphotos_183956920_l-2015.jpg",
+"publishedAt": "2020-11-18T23:59:21Z",
+"content": "Bitcoin has undergone a strong rally over the past few days as the coin has continued to see vast buying interest. The coin pushed as high as $18,500 last evening, though quickly dipped back into the… [+2292 chars]"
+},
+-{
+-"source": {
+"id": null,
+"name": "Fox Business"
+},
+"author": "Lucas Manfredi",
+"title": "Bitcoin rally catches Wall Street, Hollywood's attention",
+"description": "'Game of Thrones' star Maisie Williams asked her 2.7 million followers if she should \"go long on bitcoin.\" Here's what happened next...",
+"url": "https://www.foxbusiness.com/markets/bitcoin-rally-catches-hollywood-and-wall-street-attention",
+"urlToImage": "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2020/11/0/0/Maisie-williams-bitcoin.jpg?ve=1&tl=1",
+"publishedAt": "2020-11-18T23:55:48Z",
+"content": "As Bitcoin approaches record levels last reached in December 2017, it turns out Wall Street isn't the only group interested in the cryptocurrency now Hollywood wants in.\r\nDOJ SEIZES BITCOIN VALUED AT… [+3016 chars]"
+},
+-{
+-"source": {
+"id": null,
+"name": "CoinDesk"
+},
+"author": "Colin Harper",
+"title": "Electrum Developers Apply Fix After Apple Update Bricks Bitcoin Wallets",
+"description": "Big Sur, the most recent Mac update, is causing major problems for one of Bitcoin’s oldest wallets, but the team just published a fix.",
+"url": "https://www.coindesk.com/electrum-apple-mac-update-bricks-bitcoin-wallet",
+"urlToImage": "https://static.coindesk.com/wp-content/uploads/2020/11/Electrum-bricked-1200x628.jpg",
+"publishedAt": "2020-11-18T23:28:46Z",
+"content": "After the most recent Mac update caused major problems for one of Bitcoins oldest wallets, its development team has rolled out a fix.\r\nOriginally raised as an issue on Github, the Big Sur update is b… [+2017 chars]"
+},
+-{
+-"source": {
+"id": null,
+"name": "Yahoo Entertainment"
+},
+"author": "Colin Harper",
+"title": "Electrum Developers Apply Fix After Apple Update Bricks Bitcoin Wallets",
+"description": "Apple's most recent Mac update is causing major problems for one of Bitcoin’s oldest wallets.",
+"url": "https://finance.yahoo.com/news/electrum-developers-apply-fix-apple-232846392.html",
+"urlToImage": "https://s.yimg.com/uu/api/res/1.2/vSqmaStZw9FoPfT2pmLT0Q--~B/aD05MTY7dz0xNDIwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/coindesk_75/7b8625eaf38cda01f139ab46805d8b59",
+"publishedAt": "2020-11-18T23:28:46Z",
+"content": "A Delaware teenager has been charged with murder after allegedly luring her classmate into the woods and beating her to death alongside the girls ex-boyfriend, prosecutors said.Annika Stalczynski, 17… [+4760 chars]"
+},
+-{
+-"source": {
+"id": null,
+"name": "Zerohedge.com"
+},
+"author": "Tyler Durden",
+"title": "Daily Briefing - November 18, 2020",
+"description": "Daily Briefing - November 18, 2020\n\r\n\n\n Tyler Durden\n \nWed, 11/18/2020 - 18:25\n\n Real Vision Managing editor Ed Harrison hosts Tommy Thornton, founder of Hedge Fund Telemetry, to discuss the opportunities and risks on the investment horizon. Tommy explores wh…",
+"url": "https://www.zerohedge.com/markets/daily-briefing-november-18-2020",
+"urlToImage": "https://www.zerohedge.com/s3/files/styles/max_650x650/public/2020-11/thumbnail606893135fb5ad4ee99d20.65279885.jpg?itok=yrWuOKbS",
+"publishedAt": "2020-11-18T23:25:00Z",
+"content": null
+},
+-{
+-"source": {
+"id": null,
+"name": "FXStreet"
+},
+"author": "Tanya Abrosimova",
+"title": "Bitcoin prepares to flush out “weak hands” with a steep correction",
+"description": "Bitcoin bulls have been driving the market this week. In the past three days, Bitcoin's price increased by over $2000, building upon a robust month-lo",
+"url": "https://www.fxstreet.com/cryptocurrencies/news/bitcoin-prepares-to-flush-out-weak-hands-with-a-steep-correction-202011182324",
+"urlToImage": "https://editorial.fxstreet.com/images/Markets/Currencies/Digital Currencies/Bitcoin/Bitcoin_1_Large.jpg",
+"publishedAt": "2020-11-18T23:24:55Z",
+"content": "<ul><li>Bitcoin's technical indicators imply that a major downside correction is underway.</li><li>On-chain metrics signal that the bears may be stopped on approach to $16,000.</li></ul>Bitcoin bulls… [+2625 chars]"
+},
+-{
+-"source": {
+"id": null,
+"name": "Bitcoinist"
+},
+"author": "Cole Petersen",
+"title": "There’s Only Two Resistances Left Before Bitcoin Sets Fresh All-Time Highs",
+"description": "Bitcoin has seen unprecedented volatility throughout the past few days, with its ascent reaching a boiling point last night when bulls stepped up and sent it flying to highs of $18,600 The selling pressure here was quite intense and rapidly caused it to see a…",
+"url": "https://bitcoinist.com/theres-only-two-resistances-left-before-bitcoin-sets-fresh-all-time-highs/",
+"urlToImage": "https://bitcoinist.com/wp-content/uploads/2020/11/joanna-nix-walkup-AteF4SIV_Uo-unsplash-1920x1290.jpg",
+"publishedAt": "2020-11-18T23:00:17Z",
+"content": "<ul><li>Bitcoin has seen unprecedented volatility throughout the past few days, with its ascent reaching a boiling point last night when bulls stepped up and sent it flying to highs of $18,600</li><l… [+2646 chars]"
+},
+-{
+-"source": {
+"id": null,
+"name": "newsBTC"
+},
+"author": "Cole Petersen",
+"title": "Analyst Targets Yearn.finance (YFI) Move to $27,000 as Bulls Take Charge",
+"description": "It has been a wild past few days and weeks for the Yearn.finance governance token. YFI bulls attempted to spark a strong uptrend earlier this week when they surmounted the $18,000 level, as this has long been a macro resistance level for the cryptocurrency. T…",
+"url": "https://www.newsbtc.com/analysis/yfi/analyst-targets-yearn-finance-yfi-move-to-27000-as-bulls-take-charge/",
+"urlToImage": "https://www.newsbtc.com/wp-content/uploads/2020/11/shutterstock_1402375832-1.jpg",
+"publishedAt": "2020-11-18T23:00:16Z",
+"content": "It has been a wild past few days and weeks for the Yearn.finance governance token. YFI bulls attempted to spark a strong uptrend earlier this week when they surmounted the $18,000 level, as this has … [+2368 chars]"
+},
+-{
+-"source": {
+"id": null,
+"name": "Yahoo Entertainment"
+},
+"author": "Daniel Tenreiro",
+"title": "Explaining the Bitcoin Surge",
+"description": "Welcome to the Capital Note, a newsletter about business, finance and economics. On the menu today: bitcoin surging, Senate rejects sound money, and schools ...",
+"url": "https://news.yahoo.com/explaining-bitcoin-surge-224752010.html",
+"urlToImage": "https://s.yimg.com/uu/api/res/1.2/H3NUjbOoholyNBL4LPUNwA--~B/aD01OTc7dz0xMDIzO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en-US/the_national_review_738/cfbf9c7b1d781996e68882ec49c6f0ea",
+"publishedAt": "2020-11-18T22:47:52Z",
+"content": "Welcome to the Capital Note, a newsletter about business, finance and economics. On the menu today: bitcoin surging, Senate rejects sound money, and schools close in New York City.\r\nBitcoin $20,000?\r… [+5290 chars]"
+},
+-{
+-"source": {
+"id": "national-review",
+"name": "National Review"
+},
+"author": "Daniel Tenreiro, Daniel Tenreiro",
+"title": "Explaining the Bitcoin Surge",
+"description": "On the menu today: bitcoin surging, Senate rejects sound money, and schools close in New York City.",
+"url": "https://www.nationalreview.com/2020/11/explaining-the-bitcoin-surge/",
+"urlToImage": "https://i0.wp.com/www.nationalreview.com/wp-content/uploads/2020/10/Bitcoin.jpg?fit=1200%2C700&ssl=1",
+"publishedAt": "2020-11-18T22:47:52Z",
+"content": "Representations of virtual currency Bitcoin, March 13, 2020 (Dado Ruvic/Reuters)\r\nWelcome to the Capital Note, a newsletter about business, finance and economics. On the menu today: bitcoin surging, … [+5346 chars]"
+},
+-{
+-"source": {
+"id": null,
+"name": "Forbes"
+},
+"author": "Christopher Brookins, Contributor, \n Christopher Brookins, Contributor\n https://www.forbes.com/sites/christopherbrookins/",
+"title": "Inflation Investment Lesson From A Mexican Billionaire Touts Bitcoin",
+"description": "Mexican Billionaire Pliego doesn’t have a crystal ball, but if one thinks that the future purchasing power of their local currency might resemble the previous trend, considering the advice of one of the wealthiest individuals in the world might be merited.",
+"url": "https://www.forbes.com/sites/christopherbrookins/2020/11/18/inflation-investment-lesson-from-a-mexican-billionaire-touts-bitcoin/",
+"urlToImage": "https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5fb59fa0835634a4fe6525af%2F0x0.jpg%3FcropX1%3D0%26cropX2%3D5616%26cropY1%3D555%26cropY2%3D3188",
+"publishedAt": "2020-11-18T22:29:11Z",
+"content": "Increased money stocks in 2020 has pushed bitcoin to near all-time highs.\r\nGetty Images\r\nBitcoin already riding a multi-day hot streak, attained its highest ever market cap yesterday and touched $18,… [+2202 chars]"
+}
+]
 }
