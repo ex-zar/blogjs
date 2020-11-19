@@ -4,47 +4,52 @@
         <title>Vue Call API using Axios</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+            <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  
     </head>
     <body>
-        <div id="app">
-            <h1>Bitcoin Price Index</h1>
-            <div v-for="currency in info" class="currency">
-              {{ currency.description }}:
-              <span class="lighten">
-                <span v-html="currency.symbol"></span>{{ currency.rate_float | currencydecimal }}
-              </span>
-            </div>
+        <template>
+  <div class="mt-5">
+    <div class="row">
+      <div class="col-12" v-for="item in posts" v-bind:key="item.key">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">{{ item.title }}</h5>
+            <h6 class="card-subtitle mb-2 text-muted">{{ item.publishedAt }}</h6>
+            <p class="card-text">{{ item.description }}</p>
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
+          </div>
         </div>
+      </div>
+    </div>
+  </div>
+</template>
     </body>
-    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
     <script>
-    var vm = new Vue({
-        el: '#app',
-        data () {
-            return {
-                info: null,
-                loading: true,
-                errored: false
-            }
-        },
-        filters: {
-            currencydecimal (value) {
-                return value.toFixed(2)
-            }
-        },
-        mounted () {
-          axios
-            .get('https://ex-zar.github.io/data.json')
-            .then(response => {
-                this.info = response.data.bpi
-            })
-            .catch(error => {
-                console.log(error)
-                this.errored = true
-            })
-            .finally(() => this.loading = false)
+import axios from 'axios'
+export default {
+  data () {
+    return {
+      allPost: [],
+      posts: []
+    }
+  },
+  mounted () {
+    axios('https://ex-zar.github.io/data.json', {
+      crossDomain: true
+    }).then( ({ data }) => {
+      this.allPost = data.articles
+      data.articles.map((item, key) => {
+        if (item.description !== null && this.posts.length < 9) {
+          this.posts.push(item)
         }
-    });
+      })
+    })
+  }  
+}
+</script>
     </script>
 </html>
