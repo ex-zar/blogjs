@@ -1,8 +1,50 @@
-<html>
-  <head>
-    <title>Angular App</title>
-  </head>
-  <body>
-   <app-root>loading</app-root>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Vue Call API using Axios</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <div id="app">
+            <h1>Bitcoin Price Index</h1>
+            <div v-for="currency in info" class="currency">
+              {{ currency.description }}:
+              <span class="lighten">
+                <span v-html="currency.symbol"></span>{{ currency.rate_float | currencydecimal }}
+              </span>
+            </div>
+        </div>
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script>
+    var vm = new Vue({
+        el: '#app',
+        data () {
+            return {
+                info: null,
+                loading: true,
+                errored: false
+            }
+        },
+        filters: {
+            currencydecimal (value) {
+                return value.toFixed(2)
+            }
+        },
+        mounted () {
+          axios
+            .get('/data.json')
+            .then(response => {
+                this.info = response.data.bpi
+            })
+            .catch(error => {
+                console.log(error)
+                this.errored = true
+            })
+            .finally(() => this.loading = false)
+        }
+    });
+    </script>
 </html>
