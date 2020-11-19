@@ -35,7 +35,7 @@
         },
         mounted () {
           axios
-            .get('/data.json')
+            .get('https://ex-zar.github.io/data.json')
             .then(response => {
                 this.info = response.data.bpi
             })
